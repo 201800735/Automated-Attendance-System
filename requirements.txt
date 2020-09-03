@@ -28,4 +28,4 @@ s3transfer==0.1.10
 scipy==0.19.1
 six==1.10.0
 Werkzeug==0.12.1
-zope.interface==4.3.3
+zope.interface==5.1.0
