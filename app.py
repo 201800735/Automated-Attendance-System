@@ -6,10 +6,10 @@ monkey.patch_all()
 from flask import Flask, render_template, request, redirect
 from flask import session, flash, url_for
 from flask_mysqldb import MySQL
-from werkzeug import generate_password_hash, check_password_hash
+from werkzeug.security import generate_password_hash, check_password_hash
 from werkzeug.utils import secure_filename
 from boto3.session import Session
-import face_recognition
+
 from PIL import Image
 from gevent import wsgi
 import io
